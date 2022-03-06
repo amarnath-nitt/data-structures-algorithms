@@ -6,10 +6,10 @@ import java.util.*;
 
 public class MyApp {
     public static void main(String [] args){
-        int [] num1 = {1,8,6,2,5,4,8,3,7};
+        int [] num1 = {-1,8,6,-2,5,-4,8,3,7};
         int [] num2 = {1,4};
         int target = 9;
-        ContainerWithMostWaterSolution medianOfTwoSortedArray = new ContainerWithMostWaterSolutionImpl();
-        System.out.println(medianOfTwoSortedArray.maxArea(num1));
+        ThreeSumSolution medianOfTwoSortedArray = new ThreeSumSolutionImpl();
+        System.out.println(medianOfTwoSortedArray.threeSum(num1));
     }
 }
