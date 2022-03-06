@@ -1,8 +1,7 @@
-package main.java.array;
+package main.java.leetcode.array;
 
-import main.java.array.solutions.*;
-
-import java.util.*;
+import main.java.leetcode.array.solutions.ThreeSumSolution;
+import main.java.leetcode.array.solutions.ThreeSumSolutionImpl;
 
 public class MyApp {
     public static void main(String [] args){
