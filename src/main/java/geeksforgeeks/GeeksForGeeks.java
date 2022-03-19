@@ -4,8 +4,8 @@ import main.java.geeksforgeeks.mathematics.*;
 
 public class GeeksForGeeks {
     public static void main(String []args){
-        PalindromeNumber palindromeNumber = new PalindromeNumberImpl();
-        Object result = palindromeNumber.isPalindromeNumber(100011);
+        FactorialOfANumber factorialOfANumber = new FactorialOfANumberImpl();
+        Object result = factorialOfANumber.getFactorialOfNumberUsingModular(10000);
         System.out.println("Output: " + result);
     }
 }
