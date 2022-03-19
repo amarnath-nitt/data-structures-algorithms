@@ -1,6 +1,4 @@
-package main.java.geeksforgeeks.fundamentals;
-
-import java.util.List;
+package main.java.geeksforgeeks.mathematics;
 
 public interface SwapTwoNumbers {
     public void usingAdditionSubtraction(int a, int b);

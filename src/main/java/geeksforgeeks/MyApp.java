@@ -1,9 +1,7 @@
 package main.java.geeksforgeeks;
 
-import main.java.geeksforgeeks.array.SubArrayWithGivenSumSolution;
-import main.java.geeksforgeeks.array.SubArrayWithGivenSumSolutionImpl;
-import main.java.geeksforgeeks.fundamentals.SwapTwoNumbers;
-import main.java.geeksforgeeks.fundamentals.SwapTwoNumbersImpl;
+import main.java.geeksforgeeks.mathematics.SwapTwoNumbers;
+import main.java.geeksforgeeks.mathematics.SwapTwoNumbersImpl;
 
 public class MyApp {
     public static void main(String []args){

@@ -1,4 +1,4 @@
-package main.java.geeksforgeeks.fundamentals;
+package main.java.geeksforgeeks.mathematics;
 
 public class SwapTwoNumbersImpl implements SwapTwoNumbers{
     @Override
