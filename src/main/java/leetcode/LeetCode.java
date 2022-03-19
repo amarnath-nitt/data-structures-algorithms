@@ -1,9 +1,9 @@
-package main.java.leetcode.array;
+package main.java.leetcode;
 
 import main.java.leetcode.array.solutions.ThreeSumSolution;
 import main.java.leetcode.array.solutions.ThreeSumSolutionImpl;
 
-public class MyApp {
+public class LeetCode {
     public static void main(String [] args){
         int [] num1 = {-1,8,6,-2,5,-4,8,3,7};
         int [] num2 = {1,4};
