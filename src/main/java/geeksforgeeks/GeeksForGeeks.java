@@ -4,8 +4,8 @@ import main.java.geeksforgeeks.mathematics.*;
 
 public class GeeksForGeeks {
     public static void main(String []args){
-        FactorialOfANumber factorialOfANumber = new FactorialOfANumberImpl();
-        Object result = factorialOfANumber.getFactorialOfNumberUsingRecursion(12);
+        TrailZeroInFactorial trailZeroInFactorial = new TrailZeroInFactorialImpl();
+        Object result = trailZeroInFactorial.getCountZero(120);
         System.out.println("Output: " + result);
     }
 }
