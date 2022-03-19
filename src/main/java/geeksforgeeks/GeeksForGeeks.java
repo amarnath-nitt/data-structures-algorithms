@@ -1,14 +1,11 @@
 package main.java.geeksforgeeks;
 
-import main.java.geeksforgeeks.mathematics.CountDigits;
-import main.java.geeksforgeeks.mathematics.CountDigitsImpl;
-import main.java.geeksforgeeks.mathematics.SwapTwoNumbers;
-import main.java.geeksforgeeks.mathematics.SwapTwoNumbersImpl;
+import main.java.geeksforgeeks.mathematics.*;
 
 public class GeeksForGeeks {
     public static void main(String []args){
-        CountDigits countDigits = new CountDigitsImpl();
-        Object result = countDigits.getDigitCountUsingRecursion(10001);
+        PalindromeNumber palindromeNumber = new PalindromeNumberImpl();
+        Object result = palindromeNumber.isPalindromeNumber(100011);
         System.out.println("Output: " + result);
     }
 }
