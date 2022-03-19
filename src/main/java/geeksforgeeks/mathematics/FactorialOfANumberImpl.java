@@ -31,4 +31,12 @@ public class FactorialOfANumberImpl implements FactorialOfANumber{
         }
         return res;
     }
+
+    @Override
+    public long getFactorialOfNumberUsingRecursion(long n) {
+        if(n <=1){
+            return n;
+        }
+        return (n * getFactorialOfNumberUsingRecursion(n-1));
+    }
 }

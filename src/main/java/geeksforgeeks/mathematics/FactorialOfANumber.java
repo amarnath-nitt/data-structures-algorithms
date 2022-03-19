@@ -6,4 +6,5 @@ public interface FactorialOfANumber {
     public long getFactorialOfNumber(int n);
     public BigInteger getFactorialOfNumberUsingBigInteger(long n);
     public long getFactorialOfNumberUsingModular(long n);
+    public long getFactorialOfNumberUsingRecursion(long n);
 }
