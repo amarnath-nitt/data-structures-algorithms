@@ -2,10 +2,12 @@ package main.java.geeksforgeeks;
 
 import main.java.geeksforgeeks.array.SubArrayWithGivenSumSolution;
 import main.java.geeksforgeeks.array.SubArrayWithGivenSumSolutionImpl;
+import main.java.geeksforgeeks.fundamentals.SwapTwoNumbers;
+import main.java.geeksforgeeks.fundamentals.SwapTwoNumbersImpl;
 
 public class MyApp {
     public static void main(String []args){
-        SubArrayWithGivenSumSolution subArrayWithGivenSumSolution = new SubArrayWithGivenSumSolutionImpl();
-        System.out.println(subArrayWithGivenSumSolution.subarraySum(new int[]{15, 2, 4, 8, 9, 5, 10, 23}, 8, 23));
+        SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbersImpl();
+        swapTwoNumbers.usingXorOperator(0, 20);
     }
 }
