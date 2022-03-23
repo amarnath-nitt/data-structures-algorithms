@@ -1,7 +1,7 @@
-package main.java.leetcode.array.solutions;
+package main.java.leetcode.array;
 
 import java.util.List;
 
-public interface ThreeSumSolution {
+public interface ThreeSum {
     public List<List<Integer>> threeSum(int[] nums);
 }

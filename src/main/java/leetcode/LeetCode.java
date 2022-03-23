@@ -1,14 +1,13 @@
 package main.java.leetcode;
 
-import main.java.leetcode.array.solutions.ThreeSumSolution;
-import main.java.leetcode.array.solutions.ThreeSumSolutionImpl;
+import main.java.leetcode.array.ThreeSum;
+import main.java.leetcode.array.ThreeSumImpl;
+import main.java.leetcode.bitmanipulation.GrayCode;
+import main.java.leetcode.bitmanipulation.GrayCodeImpl;
 
 public class LeetCode {
     public static void main(String [] args){
-        int [] num1 = {-1,8,6,-2,5,-4,8,3,7};
-        int [] num2 = {1,4};
-        int target = 9;
-        ThreeSumSolution medianOfTwoSortedArray = new ThreeSumSolutionImpl();
-        System.out.println(medianOfTwoSortedArray.threeSum(num1));
+        GrayCode grayCode = new GrayCodeImpl();
+        System.out.println(grayCode.grayCodeToBinaryCode(112));
     }
 }

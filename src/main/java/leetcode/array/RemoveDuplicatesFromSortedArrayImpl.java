@@ -1,9 +1,9 @@
-package main.java.leetcode.array.solutions;
+package main.java.leetcode.array;
 
 import java.util.Set;
 import java.util.TreeSet;
 
-public class RemoveDuplicatesFromSortedArraySolutionImpl implements RemoveDuplicatesFromSortedArraySolution {
+public class RemoveDuplicatesFromSortedArrayImpl implements RemoveDuplicatesFromSortedArray {
     @Override
     public int removeDuplicates(int[] nums) {
         Set<Integer> st = new TreeSet<>();

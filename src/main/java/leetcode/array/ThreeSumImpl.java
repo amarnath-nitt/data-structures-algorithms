@@ -1,8 +1,8 @@
-package main.java.leetcode.array.solutions;
+package main.java.leetcode.array;
 
 import java.util.*;
 
-public class ThreeSumSolutionImpl implements ThreeSumSolution{
+public class ThreeSumImpl implements ThreeSum {
     @Override
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>>res = new ArrayList<>();

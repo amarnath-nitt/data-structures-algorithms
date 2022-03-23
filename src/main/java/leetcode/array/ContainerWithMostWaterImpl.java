@@ -1,6 +1,6 @@
-package main.java.leetcode.array.solutions;
+package main.java.leetcode.array;
 
-public class ContainerWithMostWaterSolutionImpl implements ContainerWithMostWaterSolution{
+public class ContainerWithMostWaterImpl implements ContainerWithMostWater {
     @Override
     public int maxArea(int[] height) {
         int n = height.length;

@@ -1,8 +1,8 @@
-package main.java.leetcode.array.solutions;
+package main.java.leetcode.array;
 
 import java.util.HashMap;
 
-public class TwoSumSolutionImpl implements TwoSumSolution{
+public class TwoSumImpl implements TwoSum {
     @Override
     public int[] twoSum(int[] nums, int target) {
         int n = nums.length;
