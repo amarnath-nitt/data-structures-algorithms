@@ -2,7 +2,9 @@ package main.java.geeksforgeeks.mathematics;
 
 import java.time.Duration;
 import java.time.Instant;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class GCDOfTwoNumbersImpl implements GCDOfTwoNumbers{
     @Override
     public long getGcdNaiveApproach(int a, int b) {

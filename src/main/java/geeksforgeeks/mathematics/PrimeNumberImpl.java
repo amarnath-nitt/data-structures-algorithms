@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class PrimeNumberImpl implements PrimeNumber{
     @Override
     public boolean isPrimeUsingNaiveApproach(long n) {

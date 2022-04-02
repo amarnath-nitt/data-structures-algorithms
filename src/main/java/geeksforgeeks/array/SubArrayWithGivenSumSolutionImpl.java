@@ -3,7 +3,7 @@ package main.java.geeksforgeeks.array;
 import java.util.ArrayList;
 import java.util.Arrays;
 /*
-  * @Author
+ * @author amarnath-nitt on 02-04-2022;
  */
 public class SubArrayWithGivenSumSolutionImpl implements SubArrayWithGivenSumSolution{
     @Override

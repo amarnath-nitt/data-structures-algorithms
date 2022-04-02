@@ -2,7 +2,9 @@ package main.java.geeksforgeeks.mathematics;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class AllFactorOfANumberImpl implements AllFactorOfANumber{
     @Override
     public List<Long> getAllFactorOfANumberUsingNaiveApproach(long n) {

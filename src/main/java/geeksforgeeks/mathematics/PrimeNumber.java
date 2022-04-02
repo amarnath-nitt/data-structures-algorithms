@@ -1,7 +1,9 @@
 package main.java.geeksforgeeks.mathematics;
 
 import java.util.List;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public interface PrimeNumber {
     public boolean isPrimeUsingNaiveApproach(long n);
     public boolean isPrimeUsingEfficientApproach(long n);

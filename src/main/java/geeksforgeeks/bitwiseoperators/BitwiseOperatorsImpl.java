@@ -1,5 +1,7 @@
 package main.java.geeksforgeeks.bitwiseoperators;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class BitwiseOperatorsImpl implements BitwiseOperators{
     @Override
     public boolean checkKthBitIsSetUsingRightShift(int n, int k) {

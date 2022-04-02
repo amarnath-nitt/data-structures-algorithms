@@ -1,5 +1,7 @@
 package main.java.geeksforgeeks.bitwiseoperators;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public interface BitwiseOperators {
     public boolean checkKthBitIsSetUsingRightShift(int n, int k);
     public boolean checkKthBitIsSetUsingLeftShift(int n, int k);

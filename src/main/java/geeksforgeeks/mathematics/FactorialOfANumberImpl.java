@@ -1,7 +1,9 @@
 package main.java.geeksforgeeks.mathematics;
 
 import java.math.BigInteger;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class FactorialOfANumberImpl implements FactorialOfANumber{
     protected final long mod = (long) (Math.pow(10, 9) + 7);
 
