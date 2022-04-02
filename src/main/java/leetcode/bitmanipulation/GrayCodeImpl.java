@@ -1,5 +1,7 @@
 package main.java.leetcode.bitmanipulation;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class GrayCodeImpl implements GrayCode{
     @Override
     public int binaryCodeToGrayCode(int num) {

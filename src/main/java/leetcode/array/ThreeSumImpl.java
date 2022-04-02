@@ -1,7 +1,9 @@
 package main.java.leetcode.array;
 
 import java.util.*;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class ThreeSumImpl implements ThreeSum {
     @Override
     public List<List<Integer>> threeSum(int[] nums) {

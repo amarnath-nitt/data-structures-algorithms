@@ -1,5 +1,7 @@
 package main.java.leetcode.array;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class ContainerWithMostWaterImpl implements ContainerWithMostWater {
     @Override
     public int maxArea(int[] height) {

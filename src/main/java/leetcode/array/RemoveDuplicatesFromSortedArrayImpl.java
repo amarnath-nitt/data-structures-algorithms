@@ -2,7 +2,9 @@ package main.java.leetcode.array;
 
 import java.util.Set;
 import java.util.TreeSet;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class RemoveDuplicatesFromSortedArrayImpl implements RemoveDuplicatesFromSortedArray {
     @Override
     public int removeDuplicates(int[] nums) {

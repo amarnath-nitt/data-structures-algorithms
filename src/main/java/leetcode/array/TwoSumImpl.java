@@ -1,7 +1,9 @@
 package main.java.leetcode.array;
 
 import java.util.HashMap;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class TwoSumImpl implements TwoSum {
     @Override
     public int[] twoSum(int[] nums, int target) {
