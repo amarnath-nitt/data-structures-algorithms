@@ -1,5 +1,7 @@
 package main.java.oops.abstraction;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class Abstraction {
     public static void main(String []args){
         Contractor contractor = new Contractor("Amarnath", 1000L, 8L);

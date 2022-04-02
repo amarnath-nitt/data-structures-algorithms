@@ -1,5 +1,7 @@
 package main.java.oops.abstraction;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class Contractor extends Employee{
     private Long workingHours;
 
