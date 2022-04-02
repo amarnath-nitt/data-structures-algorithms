@@ -1,5 +1,7 @@
 package main.java.datastructures;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class Array {
     public static void main(String [] args){
         int [] arr = new int[]{1,2,3,4,5, 6};

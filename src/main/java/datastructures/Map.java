@@ -2,7 +2,9 @@ package main.java.datastructures;
 
 import java.util.*;
 import java.util.Map.*;
-
+/*
+ * @author amarnath-nitt on 02-04-2022;
+ */
 public class Map {
     public static void main(String []args){
         LinkedHashMap<String,Integer> mp = new LinkedHashMap<>();
