@@ -8,5 +8,10 @@ public class Polymorphism {
         cashPayment.pay();
         CreditPayment creditPayment = new CreditPayment();
         creditPayment.pay();
+
+        Payment p = new CashPayment();
+        p.pay();
+        p = new CreditPayment();
+        p.pay();
     }
 }
