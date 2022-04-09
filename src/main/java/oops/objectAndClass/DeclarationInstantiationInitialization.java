@@ -12,5 +12,10 @@ public class DeclarationInstantiationInitialization {
         s1 = new Student(); // Instantiation;
         s1 = new Student("Amarnath", simpleDateFormat.parse("1997-08-10")); // Initialization;
         System.out.println(s1);
+
+        Animal animal = new Animal();
+        animal.id = 1L;
+        animal.name = "COW";
+        System.out.println("Animal object: " + animal);
     }
 }
