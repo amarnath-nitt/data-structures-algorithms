@@ -1,6 +1,7 @@
 package main.java.leetcode;
 
 import main.java.leetcode.algorithms.GameOfLife;
+import main.java.leetcode.algorithms.SpiralMatrixII;
 import main.java.leetcode.array.ThreeSum;
 import main.java.leetcode.array.ThreeSumImpl;
 import main.java.leetcode.bitmanipulation.GrayCode;
@@ -13,9 +14,7 @@ import java.util.Arrays;
  */
 public class LeetCode {
     public static void main(String [] args){
-        int [][]board = {{0,1,0},{0,0,1},{1,1,1},{0,0,0}};
-        GameOfLife gameOfLife = new GameOfLife();
-        System.out.println("Before: "+ Arrays.deepToString(board));
-        System.out.println("After: " + Arrays.deepToString(gameOfLife.gameOfLife(board)));
+        SpiralMatrixII spiralMatrixII = new SpiralMatrixII();
+        System.out.println("Spiral Matrix: " + Arrays.deepToString(spiralMatrixII.generateMatrix(10)));
     }
 }
