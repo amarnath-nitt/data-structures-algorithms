@@ -1,6 +1,7 @@
 package main.java.leetcode;
 
 import main.java.leetcode.algorithms.GameOfLife;
+import main.java.leetcode.algorithms.PlatesBetweenCandles;
 import main.java.leetcode.algorithms.SpiralMatrixII;
 import main.java.leetcode.array.ThreeSum;
 import main.java.leetcode.array.ThreeSumImpl;
@@ -14,7 +15,9 @@ import java.util.Arrays;
  */
 public class LeetCode {
     public static void main(String [] args){
-        SpiralMatrixII spiralMatrixII = new SpiralMatrixII();
-        System.out.println("Spiral Matrix: " + Arrays.deepToString(spiralMatrixII.generateMatrix(10)));
+        String inputString = "***|**|*****|**||**|*";
+        int [][]queries = new int[][]{{1,17},{4,5},{14,17},{5,11},{15,16}};
+        PlatesBetweenCandles platesBetweenCandles = new PlatesBetweenCandles();
+        System.out.println("Spiral Matrix: " + Arrays.toString(platesBetweenCandles.platesBetweenCandles(inputString, queries)));
     }
 }
