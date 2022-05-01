@@ -1,12 +1,6 @@
 package main.java.leetcode;
 
-import main.java.leetcode.algorithms.GameOfLife;
-import main.java.leetcode.algorithms.PlatesBetweenCandles;
-import main.java.leetcode.algorithms.SpiralMatrixII;
-import main.java.leetcode.array.ThreeSum;
-import main.java.leetcode.array.ThreeSumImpl;
-import main.java.leetcode.bitmanipulation.GrayCode;
-import main.java.leetcode.bitmanipulation.GrayCodeImpl;
+import main.java.leetcode.algorithms.arrays.PlatesBetweenCandles;
 
 import java.util.Arrays;
 

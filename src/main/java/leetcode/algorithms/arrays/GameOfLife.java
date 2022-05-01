@@ -1,4 +1,4 @@
-package main.java.leetcode.algorithms;
+package main.java.leetcode.algorithms.arrays;
 
 public class GameOfLife {
     public int [][] gameOfLife(int[][] board) {
