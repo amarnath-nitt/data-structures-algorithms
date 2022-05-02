@@ -1,6 +1,7 @@
 package main.java.leetcode;
 
 import main.java.leetcode.algorithms.arrays.PlatesBetweenCandles;
+import main.java.leetcode.algorithms.recursion.PrintName;
 import main.java.leetcode.algorithms.recursion.PrintNumber;
 
 import java.util.Arrays;
@@ -10,7 +11,7 @@ import java.util.Arrays;
  */
 public class LeetCode {
     public static void main(String [] args){
-        PrintNumber printNumber = new PrintNumber();
-        PrintNumber.printNumberFrom0ToN(10);
+        PrintName printName = new PrintName();
+        PrintName.printNTimes(1,10);
     }
 }
