@@ -11,7 +11,6 @@ import java.util.Arrays;
  */
 public class LeetCode {
     public static void main(String [] args){
-        PrintName printName = new PrintName();
-        PrintName.printNTimes(1,10);
+        PrintNumber.printLinearlyFrom1ToN(1,10);
     }
 }
