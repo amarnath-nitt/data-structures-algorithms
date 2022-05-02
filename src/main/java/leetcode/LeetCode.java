@@ -3,6 +3,7 @@ package main.java.leetcode;
 import main.java.leetcode.algorithms.arrays.PlatesBetweenCandles;
 import main.java.leetcode.algorithms.recursion.PrintName;
 import main.java.leetcode.algorithms.recursion.PrintNumber;
+import main.java.leetcode.algorithms.recursion.SumOfFirstNNumbers;
 
 import java.util.Arrays;
 
@@ -11,6 +12,6 @@ import java.util.Arrays;
  */
 public class LeetCode {
     public static void main(String [] args){
-        PrintNumber.printFromNTo1(1, 10);
+        System.out.println(SumOfFirstNNumbers.getSum(5));
     }
 }
