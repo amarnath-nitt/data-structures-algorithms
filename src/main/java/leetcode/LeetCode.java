@@ -13,6 +13,6 @@ import java.util.Arrays;
  */
 public class LeetCode {
     public static void main(String [] args){
-        System.out.println(Factorial.getFactorial(5));
+        System.out.println(Factorial.getFactorialOfBigNumber(100));
     }
 }
