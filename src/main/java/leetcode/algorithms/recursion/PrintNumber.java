@@ -16,5 +16,10 @@ public class PrintNumber {
         System.out.println(n);
         printFromNTo1(n-1);
     }
+    public static void printFromNTo1(int i, int n){
+        if(i>n) return ;
+        printFromNTo1(i+1, n);
+        System.out.println(i);
+    }
 
 }

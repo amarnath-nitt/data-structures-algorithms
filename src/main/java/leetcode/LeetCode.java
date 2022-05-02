@@ -11,6 +11,6 @@ import java.util.Arrays;
  */
 public class LeetCode {
     public static void main(String [] args){
-        PrintNumber.printLinearlyFrom1ToN(10);
+        PrintNumber.printFromNTo1(1, 10);
     }
 }
