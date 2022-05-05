@@ -1,10 +1,7 @@
 package main.java.leetcode;
 
 import main.java.leetcode.algorithms.arrays.PlatesBetweenCandles;
-import main.java.leetcode.algorithms.recursion.Factorial;
-import main.java.leetcode.algorithms.recursion.PrintName;
-import main.java.leetcode.algorithms.recursion.PrintNumber;
-import main.java.leetcode.algorithms.recursion.SumOfFirstNNumbers;
+import main.java.leetcode.algorithms.recursion.*;
 
 import java.util.Arrays;
 
@@ -13,6 +10,9 @@ import java.util.Arrays;
  */
 public class LeetCode {
     public static void main(String [] args){
-        System.out.println(Factorial.getFactorialOfBigNumber(100));
+        int [] arr = Reverse.reverseArray(new int[]{1, 2, 3, 4, 5}, 5);
+        for(int x: arr){
+            System.out.print(x + " ");
+        }
     }
 }
